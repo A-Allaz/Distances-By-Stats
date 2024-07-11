@@ -2,7 +2,6 @@
 This project will test to which extent we can mesure distance between two points by selecting a number of random parameters
 
 ## Objectives
-- [ ] code N-dimension vectors
 - [ ] Code a method to calculate the distance between two N-dimensionnal vectors
 - [ ] Add random selection of n coordinates of the two vectors
 - [ ] Compare this calculus by a selection to the real distance
