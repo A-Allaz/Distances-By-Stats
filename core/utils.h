@@ -1,5 +1,6 @@
 #include <cmath>
 #include <random>
+#include <sciplot/sciplot.hpp>
 
 using namespace std;
 
