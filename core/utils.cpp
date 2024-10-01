@@ -14,6 +14,22 @@ const ostream& operator<<(ostream& os, PointsToCompare& points){
 	return os;
 };
 
+float calculateMean(float* tab, int size){
+	float sum = 0;
+	for(int i = 0; i < size; i++){
+		sum += tab[i];
+	}
+	return sum / (float) size;
+};
+
+float calculateDeviation(float* tab, float mean, int size){
+	float sum = 0;
+	for(int i = 0; i < size; i++){
+		sum += pow(mean - tab[i], 2);
+	}
+	return sqrt(sum / ((float) size));
+};
+
 bool isIn(int* list, int size, int value){
 	if(size == 0){
 		return false;
@@ -26,4 +42,8 @@ bool isIn(int* list, int size, int value){
 	}
 	
 	return false;
+};
+
+float calculateConfidence(float mean, float z, float deviation, float size){
+	return mean + abs(z * (deviation / sqrt(size)));
 };
