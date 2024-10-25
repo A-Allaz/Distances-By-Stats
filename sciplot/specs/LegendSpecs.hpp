@@ -26,12 +26,12 @@
 #pragma once
 
 // sciplot includes
-#include <sciplot/Default.hpp>
-#include <sciplot/specs/FrameSpecsOf.hpp>
-#include <sciplot/specs/ShowSpecsOf.hpp>
-#include <sciplot/specs/TextSpecsOf.hpp>
-#include <sciplot/specs/TitleSpecsOf.hpp>
-#include <sciplot/Utils.hpp>
+#include "../Default.hpp"
+#include "../specs/FrameSpecsOf.hpp"
+#include "../specs/ShowSpecsOf.hpp"
+#include "../specs/TextSpecsOf.hpp"
+#include "../specs/TitleSpecsOf.hpp"
+#include "../Utils.hpp"
 
 namespace sciplot {
 

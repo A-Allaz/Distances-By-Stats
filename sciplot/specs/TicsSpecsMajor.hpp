@@ -29,8 +29,8 @@
 #include <vector>
 
 // sciplot includes
-#include <sciplot/Utils.hpp>
-#include <sciplot/specs/TicsSpecsBaseOf.hpp>
+#include "../Utils.hpp"
+#include "../specs/TicsSpecsBaseOf.hpp"
 
 namespace sciplot
 {

@@ -1,7 +1,7 @@
 #include <random>
 #include "../core/vectors.h"
 #include "../core/utils.h"
-#include <sciplot/sciplot.hpp>
+#include "../sciplot/sciplot.hpp"
 
 using namespace std;
 
