@@ -1,5 +1,6 @@
 #include <random>
 #include "../core/vectors.h"
+#include <sciplot/sciplot.hpp>
 
 using namespace std;
 
