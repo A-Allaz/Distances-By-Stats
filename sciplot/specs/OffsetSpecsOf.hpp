@@ -26,9 +26,9 @@
 #pragma once
 
 // sciplot includes
-#include <sciplot/Default.hpp>
-#include <sciplot/specs/TextSpecsOf.hpp>
-#include <sciplot/Utils.hpp>
+#include "../Default.hpp"
+#include "../specs/TextSpecsOf.hpp"
+#include "../Utils.hpp"
 
 namespace sciplot {
 

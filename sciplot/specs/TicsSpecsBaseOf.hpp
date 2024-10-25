@@ -26,11 +26,11 @@
 #pragma once
 
 // sciplot includes
-#include <sciplot/Default.hpp>
-#include <sciplot/Utils.hpp>
-#include <sciplot/specs/OffsetSpecsOf.hpp>
-#include <sciplot/specs/ShowSpecsOf.hpp>
-#include <sciplot/specs/TextSpecsOf.hpp>
+#include "../Default.hpp"
+#include "../Utils.hpp"
+#include "../specs/OffsetSpecsOf.hpp"
+#include "../specs/ShowSpecsOf.hpp"
+#include "../specs/TextSpecsOf.hpp"
 
 namespace sciplot
 {
